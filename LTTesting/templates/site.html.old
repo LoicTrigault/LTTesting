@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testeur QA - Profil professionnel</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="intro">
+        <div class="container">
+            <h1>Bienvenue.</h1>
+            <p>Je suis un testeur logiciel passionné, spécialisé dans la qualité logicielle et l'automatisation des tests.</p>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="container">
+            <h2>Mes Compétences</h2>
+            <div class="competence">
+                <h3>Tests Fonctionnels</h3>
+                <p>Réalisation de tests manuels et automatisés pour assurer la qualité des applications.</p>
+            </div>
+            <div class="competence">
+                <h3>Automatisation de Tests</h3>
+                <p>Utilisation de frameworks comme Selenium, Playwright, et Robot Framework pour automatiser les tests.</p>
+            </div>
+            <div class="competence">
+                <h3>Intégration Continue</h3>
+                <p>Mise en place de pipelines CI/CD pour l'intégration et les tests continus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="container">
+            <h2>Projets Réalisés</h2>
+            <div class="projet">
+                <h3>Projet Lor’n’Lux Trafic</h3>
+                <p>Création de cas de tests pour une application de gestion de trafic avec des outils comme Jira, Xray et Cucumber.</p>
+            </div>
+            <div class="projet">
+                <h3>Automatisation avec Robot Framework</h3>
+                <p>Automatisation de tests pour un site web de e-commerce avec des tests d'interface utilisateur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <form action="#" method="POST">
+                <input type="text" name="name" placeholder="Votre nom" required>
+                <input type="email" name="email" placeholder="Votre email" required>
+                <textarea name="message" placeholder="Votre message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Loïc TRIGAULT - Tous droits réservés</p>
+        </div>
+    </footer>
+</body>
+
+</html>

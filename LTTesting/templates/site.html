@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LTTesting</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+
+<body class="bg-dark text-white">
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">TRIGAULT Loïc</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="intro" class="text-center py-5">
+        <div class="container">
+            <h1 class="display-4 text-warning">Bienvenue</h1>
+            <p class="lead">Je suis un testeur logiciel passionné, spécialisé dans la qualité logicielle et l'automatisation des tests.</p>
+        </div>
+    </section>
+
+    <section id="competences" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-warning mb-5">Mes Compétences</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="competence-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Tests Fonctionnels</h3>
+                        <p>Réalisation de tests manuels et automatisés pour assurer la qualité des applications.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="competence-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Automatisation de Tests</h3>
+                        <p>Utilisation de frameworks comme Selenium, Playwright, et Robot Framework pour automatiser les tests.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="competence-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Intégration Continue</h3>
+                        <p>Mise en place de pipelines CI/CD pour l'intégration et les tests continus.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="competence-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Méthodologie Agile</h3>
+                        <p>Mise en place de pipelines CI/CD pour l'intégration et les tests continus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets" class="bg-dark py-5">
+        <div class="container">
+            <h2 class="text-center text-warning mb-5">Projets Réalisés</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="projet-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Projet Lor’n’Lux Trafic</h3>
+                        <p>Création de cas de tests pour une application de gestion de trafic avec des outils comme Jira, Xray et Cucumber.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="projet-card bg-secondary p-4 rounded">
+                        <h3 class="text-warning">Automatisation avec Robot Framework</h3>
+                        <p>Automatisation de tests pour un site web de e-commerce avec des tests d'interface utilisateur.</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="text-center text-warning mt-5">Technologies utilisées :</h3>
+            <div class="text-center">
+                <i class="bi bi-robot"></i>Robot Framework
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Selenium_Logo.png" alt="Selenium" class="tech-logo">
+                <img src="https://playwright.dev/img/logo.svg" alt="Playwright" class="tech-logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Jira-Software-Logo.png" alt="Jira" class="tech-logo">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center text-warning mb-5">Contactez-moi</h2>
+            <form action="#" method="POST" class="text-center">
+                <div class="mb-3">
+                    <input type="text" name="name" class="form-control" placeholder="Votre nom" required>
+                </div>
+                <div class="mb-3">
+                    <input type="email" name="email" class="form-control" placeholder="Votre email" required>
+                </div>
+                <div class="mb-3">
+                    <textarea name="message" class="form-control" placeholder="Votre message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-warning">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-dark py-4 text-center">
+        <div class="container">
+            <p>&copy; 2024 Testeur QA - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
